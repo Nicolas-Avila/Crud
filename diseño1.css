@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+   background-color: rgba(7, 7, 12, 0.3);
+       
+}
+.tareas{
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+.sidebar {
+    height: 100%;
+    width: 190px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 40px;
+    background-color:  rgba(7, 7, 12, 0.5);
+    color: white;
+    
+    }
+    a{color: white;}
+    .sidebar div {
+    padding: 8px;
+    font-size: 24px;
+    display: block;
+    }
+    
+    .body-text {
+    margin-left: 150px;
+    font-size: 18px;
+    }
+
+
+.form{
+    width: 40%;
+    margin:auto;
+    border-radius: 15px 50px;
+background-color: #1f2329;
+}
+
+.formulario{
+display: flex;
+flex-direction: column;
+width: 65%;
+margin:auto;
+border-radius: 15px 50px 30px;
+background-color: #232529;
+color: #c9d1d9;
+
+}
+
+input{
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #c9d1d9;
+    background: #161b22;
+    border: 2px solid #30363d;
+    border-radius: 0.375em;
+    outline: none;
+    padding: 0 1em;
+    height: 2em;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+input:focus{
+    border-color: #58a6ff;
+    box-shadow: 0 0 0 1px #58a6ff;
+}
+
+.formulario:not(:focus-within):hover input{
+    border-color: #949aa2;
+}
+.label{
+    margin-top: 15px;
+}
+.boto{
+width: 60%;
+margin: auto;
+margin-bottom: 15px;
+}
+
+
+.all-contactos{
+width: 95%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+margin: auto;
+margin-bottom: 20px;
+/* position: relative; */
+/* right: -30px; */
+}
+
+.contacto, .editar,.numero{
+width: 30%;
+max-width: 1090px;
+margin: auto;
+margin-top:5px;
+text-align: center;
+border: double black 3px;
+margin-left: 0%;
+margin-right: 0%;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.3);
+color: white;
+}
+.numero{
+    width: 15%;
+}
+.editar{
+    width: 10%;
+}
